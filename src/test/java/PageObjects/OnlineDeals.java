@@ -24,6 +24,9 @@ public class OnlineDeals {
     @FindBy(xpath = "//span[@class='title'][contains(.,'Samsung Galaxy S22 Plus 5G DS + MS Office 365 Personal')]")
     WebElement DeviceDetails_xpath;
 
+    @FindBy(xpath = "(//div[contains(.,'Samsung Galaxy S22 Plus 5G DS + MS Office 365 Personal')])[10]")
+    WebElement SelectedDevice_xpath;
+
     @FindBy(xpath = "//div[@class='DealDetailFooterTop_details-value__1rON9 col-md-8 col-6'][contains(.,'R818 PM')]")
     WebElement DealPrice_xpath;
 
@@ -60,13 +63,13 @@ public class OnlineDeals {
     }
 
     public OnlineDeals selectDevice(){
-        new WebDriverWait(driver,40).until(ExpectedConditions.visibilityOf(DeviceDetails_xpath));
+        new WebDriverWait(driver,50).until(ExpectedConditions.visibilityOf(DeviceDetails_xpath));
         DeviceDetails_xpath.click();
         return this;
     }
     public OnlineDeals validateSelectedDevice() {
-        new WebDriverWait(driver,30).until(ExpectedConditions.visibilityOf(DeviceDetails_xpath));
-        Assert.assertEquals(DeviceDetails_xpath.getText(), "Samsung Galaxy S22 Plus 5G DS + " +
+        new WebDriverWait(driver,50).until(ExpectedConditions.visibilityOf(SelectedDevice_xpath));
+        Assert.assertEquals(SelectedDevice_xpath.getText(), "Samsung Galaxy S22 Plus 5G DS + " +
                 "MS Office 365 Personal");
         return this;
 

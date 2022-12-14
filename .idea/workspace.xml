@@ -4,20 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4eebf38a-0a9f-4337-90b0-8c7f82fa99a6" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Utils/BrowserSetup.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/ExtentReport/ExtentReportManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/ExtentReport/Listeners.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/PageObjects/OnlineDeals.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Tests/BaseTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Tests/OnlineDealsOnly.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/testng.xml" afterDir="false" />
+    <list default="true" id="4eebf38a-0a9f-4337-90b0-8c7f82fa99a6" name="Changes" comment="1st commit Vodacom framework">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/PageObjects/OnlineDeals.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/PageObjects/OnlineDeals.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Tests/OnlineDealsOnly.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Tests/OnlineDealsOnly.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -95,6 +85,14 @@
       <option name="presentableId" value="Default" />
       <updated>1670154182780</updated>
     </task>
+    <task id="LOCAL-00001" summary="1st commit Vodacom framework">
+      <created>1670973487741</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1670973487741</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -107,5 +105,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="1st commit Vodacom framework" />
+    <option name="LAST_COMMIT_MESSAGE" value="1st commit Vodacom framework" />
   </component>
 </project>

@@ -11,7 +11,8 @@ public class OnlineDealsOnly extends BaseTests{
                 .PageVerify()
                 .SelectOnlineDeals();
         onlineDeals
-                .selectDevice()
+                .selectDevice();
+        onlineDeals
                 .validateSelectedDevice()
                 .dealPrice()
                 .contractDuration()
