@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4eebf38a-0a9f-4337-90b0-8c7f82fa99a6" name="Changes" comment="1st commit Vodacom framework">
+    <list default="true" id="4eebf38a-0a9f-4337-90b0-8c7f82fa99a6" name="Changes" comment="merging 2 classes into 1 Class">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/PageObjects/OnlineDeals.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/PageObjects/OnlineDeals.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/Tests/OnlineDealsOnly.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Tests/OnlineDealsOnly.java" afterDir="false" />
@@ -92,7 +92,14 @@
       <option name="project" value="LOCAL" />
       <updated>1670973487741</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="merging 2 classes into 1 Class">
+      <created>1671002724850</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1671002724850</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -108,6 +115,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="1st commit Vodacom framework" />
-    <option name="LAST_COMMIT_MESSAGE" value="1st commit Vodacom framework" />
+    <MESSAGE value="merging 2 classes into 1 Class" />
+    <option name="LAST_COMMIT_MESSAGE" value="merging 2 classes into 1 Class" />
   </component>
 </project>

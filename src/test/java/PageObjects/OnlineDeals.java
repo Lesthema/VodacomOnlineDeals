@@ -79,6 +79,11 @@ public class OnlineDeals {
         return this;
 
     }
+    public OnlineDeals InvalidDealPrice() {
+        Assert.assertEquals(DealPrice_xpath.getText(), "R888 PM");
+        return this;
+
+    }
     public OnlineDeals contractDuration() {
         Assert.assertEquals(ContractDuration_xpath.getText(), "36 months");
         return this;
