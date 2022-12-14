@@ -62,10 +62,9 @@ public class OnlineDeals {
         actions.click().build().perform();
     }
 
-    public OnlineDeals selectDevice(){
+    public void selectDevice(){
         new WebDriverWait(driver,50).until(ExpectedConditions.visibilityOf(DeviceDetails_xpath));
         DeviceDetails_xpath.click();
-        return this;
     }
     public OnlineDeals validateSelectedDevice() {
         new WebDriverWait(driver,50).until(ExpectedConditions.visibilityOf(SelectedDevice_xpath));

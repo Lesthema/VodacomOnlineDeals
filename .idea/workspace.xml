@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4eebf38a-0a9f-4337-90b0-8c7f82fa99a6" name="Changes" comment="merging 2 classes into 1 Class">
+    <list default="true" id="4eebf38a-0a9f-4337-90b0-8c7f82fa99a6" name="Changes" comment="adding 2nd test for failure">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/PageObjects/OnlineDeals.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/PageObjects/OnlineDeals.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Tests/OnlineDealsOnly.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Tests/OnlineDealsOnly.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -99,7 +98,14 @@
       <option name="project" value="LOCAL" />
       <updated>1671002724850</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="adding 2nd test for failure">
+      <created>1671004583500</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1671004583500</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -116,6 +122,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="1st commit Vodacom framework" />
     <MESSAGE value="merging 2 classes into 1 Class" />
-    <option name="LAST_COMMIT_MESSAGE" value="merging 2 classes into 1 Class" />
+    <MESSAGE value="adding 2nd test for failure" />
+    <option name="LAST_COMMIT_MESSAGE" value="adding 2nd test for failure" />
   </component>
 </project>
